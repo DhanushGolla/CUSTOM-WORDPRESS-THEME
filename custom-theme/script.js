@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Dynamic heading color change
     heading.addEventListener("click", () => {
         heading.style.color = "#e67e22";
-        heading.innerText += " 👋";
+        heading.innerText += "  ";
     });
 
     // Button click alert
