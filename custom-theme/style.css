@@ -1,4 +1,81 @@
 /*
 Theme Name: Custom WordPress Theme
 Author: Dhanush Golla
+Description: A fully functional WordPress theme demonstrating PHP, HTML, CSS, and JS integration.
+Version: 1.0
+License: MIT
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 40px 0 20px 0;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #2980b9;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.6;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+    transform: scale(1.05);
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.dark-mode button {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
